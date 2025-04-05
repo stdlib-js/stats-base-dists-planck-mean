@@ -35,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`197a69a`](https://github.com/stdlib-js/stdlib/commit/197a69a212649e53bece59d70ae840b9acb08bea) - **chore:** clean-up _(by Athan Reines)_
 -   [`8ba53a1`](https://github.com/stdlib-js/stdlib/commit/8ba53a198106852057d9444fb684818e8e7dfcc5) - **feat:** add C implementation for `stats/base/dists/planck/mean` [(#4902)](https://github.com/stdlib-js/stdlib/pull/4902) _(by Yuvi Mittal, Philipp Burckhardt)_
 -   [`56801e8`](https://github.com/stdlib-js/stdlib/commit/56801e8c64bc227a69e9b9b811d74994f2ad88a1) - **feat:** add `stats/base/dists/planck/mean` [(#3942)](https://github.com/stdlib-js/stdlib/pull/3942) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 
