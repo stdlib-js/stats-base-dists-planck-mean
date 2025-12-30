@@ -129,16 +129,15 @@ v = mean( -1.5 );
 
 ```javascript
 var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var mean = require( '@stdlib/stats-base-dists-planck-mean' );
 
-var lambda = uniform( 10, 0.1, 10.0 );
+var opts = {
+    'dtype': 'float64'
+};
+var lambda = uniform( 10, 0.1, 10.0, opts );
 
-var v;
-var i;
-for ( i = 0; i < 10; i++ ) {
-    v = mean( lambda[ i ] );
-    console.log( 'λ: %d, E(X;λ): %d', lambda[ i ].toFixed( 4 ), v.toFixed( 4 ) );
-}
+logEachMap( 'λ: %0.4f, E(X;λ): %0.4f', lambda, mean );
 ```
 
 </section>
@@ -305,8 +304,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
