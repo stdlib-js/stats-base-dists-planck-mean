@@ -144,14 +144,6 @@ logEachMap( 'λ: %0.4f, E(X;λ): %0.4f', lambda, mean );
 
 <!-- /.examples -->
 
-<!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="references">
-
-</section>
-
-<!-- /.references -->
-
 <!-- C interface documentation. -->
 
 * * *
@@ -244,6 +236,14 @@ int main( void ) {
 
 <!-- /.c -->
 
+<!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="references">
+
+</section>
+
+<!-- /.references -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
@@ -291,8 +291,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-planck-mean.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-planck-mean
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-planck-mean/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/stats-base-dists-planck-mean/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/stats-base-dists-planck-mean/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-base-dists-planck-mean/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-planck-mean/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-planck-mean?branch=main
