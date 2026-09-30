@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-14)
+## Unreleased (2026-09-30)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0c1845c`](https://github.com/stdlib-js/stdlib/commit/0c1845cb7edc3bc95b2fe274c7732e8cba867931) - **test:** migrate `stats/base/dists/planck/mean` to ULP-based assertions [(#15682)](https://github.com/stdlib-js/stdlib/pull/15682) _(by Devansh Patel)_
 -   [`8975f00`](https://github.com/stdlib-js/stdlib/commit/8975f00a25cb5ce66c932529659354ae5d8454dd) - **docs:** update descriptions [(#13219)](https://github.com/stdlib-js/stdlib/pull/13219) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`50a34cf`](https://github.com/stdlib-js/stdlib/commit/50a34cffd477b655ab96d0aefd61744ef964a58f) - **style:** remove extra trailing newlines [(#12968)](https://github.com/stdlib-js/stdlib/pull/12968) _(by Philipp Burckhardt)_
@@ -28,9 +29,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Devansh Patel
 -   Philipp Burckhardt
 
 </section>
